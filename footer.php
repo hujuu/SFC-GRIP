@@ -3,8 +3,7 @@
 
 
                 </div>	
-                <!-- Content Section ends here -->	
-                
+                <!-- Content Section ends here -->	     
                                                               
 			</div>	
 			<!-- Wrapper two ends here -->	
@@ -22,21 +21,15 @@
                                                                        
                                                         <?php endif;?>
                                                 </div>
-                                            </div>                  
-                        
+                                            </div>                              
                  </div> 
-                 <!-- Footer Section ends here -->  
-
-
+                 <!-- Footer Section ends here --> 
 		</div>	
 		<!-- Wrapper three ends here -->           
 	</div>	
 	<!-- Wrapper four ends here -->	            				
 	</div>	
 	<!-- Wrapper one ends here -->	
-
-
-
 <?php wp_footer(); ?>
 </body>
 </html>
