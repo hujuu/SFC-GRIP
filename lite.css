@@ -1479,9 +1479,8 @@ text-decoration: none;
 	color:#ffffff;
 	width:80%;
 }
-
 #footer_section .footerp{
-	margin:10px 5% 10px 5%;
+	margin:10px 5% 5px 5%;
 	color:#ffffff;
 	width:90%;
 	text-align: right;
@@ -1491,7 +1490,7 @@ text-decoration: none;
 	color:#C6C5C4;
 }
 #footer_section .footercredit {
-	margin:0 5% 10px 5%;
+	margin:0 5% 5px 5%;
 	color:#ffffff;
 	width:90%;		
 }
@@ -1504,6 +1503,31 @@ text-decoration: none;
 	width:100%;
 	background:none !important;
 }
+
+#footnav ul{
+	list-style: none; 
+	padding:0;
+	margin:15px 10% 15px 10%;
+}
+#footnav li{
+	padding: 0; 
+	margin: 0;
+	float: left;
+	color:#ffffff;
+}
+#footnav li a{
+	display: block;
+	text-decoration: none;
+	color:#ffffff;
+	padding: 0px 15px 0px 15px;
+	margin: 0px 2px 0px 2px;
+	text-align: center;
+	font-size: 14px;
+}
+#footnav li a:hover{
+	border-bottom: 1px dotted #FFF;
+}
+
 
 /* ==================================================================
     Secure and Accessible PHP Contact Form v.2.0WP FIXED width
