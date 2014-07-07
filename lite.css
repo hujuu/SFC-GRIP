@@ -93,7 +93,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	word-wrap:break-word;
 }
 body { line-height: 1; }
-ol, ul { list-style: none; }
+ol, ul {
+	list-style: none;
+}
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 :focus { outline: 0; }/* remember to define focus styles! */
@@ -220,7 +222,6 @@ text-shadow:
 .logo_desc a:hover{
 	text-decoration:none;
 }
-
 #header_ad p{
 	margin:0;
 	height:70px;
@@ -243,7 +244,7 @@ text-shadow:
 	position:relative;
 	z-index:999;
 	padding:0 0 0 0;
-	margin:10px 10px 0 10px;
+	margin:10px 8px 0 8px;
 	
 	-webkit-border-radius: 5px 5px 0 0;
 	-moz-border-radius: 5px 5px 0 0;
@@ -259,7 +260,6 @@ text-shadow:
 	width:80%;
 	margin:10px auto;
 	background:none;
-	border:1px solid #000;
 }
 #inner_content_section {
 	width: 98%;
@@ -1505,7 +1505,9 @@ text-decoration: none;
 }
 
 #footnav ul{
-	list-style: none; 
+	list-style: none;
+	width: 80%;
+	height: 40px;
 	padding:0;
 	margin:15px 10% 15px 10%;
 }
@@ -1527,7 +1529,6 @@ text-decoration: none;
 #footnav li a:hover{
 	border-bottom: 1px dotted #FFF;
 }
-
 
 /* ==================================================================
     Secure and Accessible PHP Contact Form v.2.0WP FIXED width

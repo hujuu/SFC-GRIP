@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?> " type="text/css" media="all" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-    
 	<?php wp_head(); ?>
 </head>
 
@@ -94,8 +93,7 @@
                                 <p class="logo_desc"><?php bloginfo('description'); ?></p>
                             </div>
                             
-                            
-                            
+                                          
             
                 </div>	
                 <!-- Logo Section ends here -->	                 			
@@ -109,9 +107,9 @@
             			<div id="menu">
 							<!-- <?php wp_nav_menu( array( 'theme_location' => 'mainmenu', 'menu_class' => 'dropdown dropdown-horizontal','fallback_cb'     => 'Destro_backupmenu', 'menu_id'=>'Main_nav', 'container'=>'') ); ?>			
                         -->
-                        <nav>
-            <ul class="fancyNav">
-                <li id="home"><a href="/post" class="homeIcon">Home</a></li>
+                        <nav class="global-navi">
+            <ul>
+                <li id="home"><a href="/post">トップ</a></li>
                 <li id="news"><a href="/post/?page_id=2">特　集</a></li>
                 <li id="about"><a href="#about">インタビュー</a></li>
                 <li id="services"><a href="#services">起　業</a></li>
