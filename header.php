@@ -92,9 +92,7 @@
                                 <p class="logo_title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></p>
                                 <p class="logo_desc"><?php bloginfo('description'); ?></p>
                             </div>
-                            
-                                          
-            
+                               
                 </div>	
                 <!-- Logo Section ends here -->	                 			
 
@@ -112,14 +110,10 @@
                 <li id="home"><a href="/post">トップ</a></li>
                 <li id="news"><a href="/post/?page_id=2">特　集</a></li>
                 <li id="about"><a href="#about">インタビュー</a></li>
-                <li id="services"><a href="#services">起　業</a></li>
-                <li id="contact"><a href="#contact">キャリア</a></li>
-                <li id="abroad"><a href="#contact">留　学</a></li>
-                <li id="abroad"><a href="#contact">交　流</a></li>
+                <li id="services"><a href="#services">ニュース</a></li>
             </ul>
         </nav>
-                        </div>
- 
+    </div>
 
                    
                     <!-- Menu Section ends here -->	                                      

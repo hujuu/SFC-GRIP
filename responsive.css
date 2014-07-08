@@ -56,7 +56,7 @@ nav.global-navi ul {
     background: #eee;
     border: 1px solid #ccc;
     border-right: 1px solid #eee;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     width: 100%;
     display: table;
@@ -655,6 +655,9 @@ and (min-width : 901px) {
 	width: 98%;
 	margin:10px 8px 0 8px;
 }
+nav.global-navi ul {
+    font-size: 18px;
+}
 #inner_content_section {
 	width: 98%;
 	overflow: hidden;
@@ -894,7 +897,6 @@ and (min-width : 901px) {
 	font-size:36px;
 	line-height:36px;
 }
-
 .carousel-tabs { text-align:left;}
 
 .wrvid h2{
