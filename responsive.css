@@ -3,15 +3,22 @@
 	width:100%;	
 	background: #77C9EA;
 	overflow:auto;
-	display:none;
+	/* display:none; */
 	border-bottom: solid 4px #85CC42;
 }
-#wrapper_three{ margin:0 auto; width:100%; overflow: auto; padding:0;}
-
+#wrapper_three{ margin:0 auto; width:100%; overflow: hidden;
+	padding:0;}
+.header_rss {
+	float:right;
+	overflow:auto;
+}
+.header_rss p{
+	float:right;
+	margin:5px 5px 0 0;	
+}
 #logo_section {
 	overflow:auto;
 	width:100%;
-	width:94%;
 	margin:0 3% 0 3%;	
 	padding:2% 0;
 }
@@ -20,6 +27,9 @@
 	margin: 0 0 0 0;
 	text-align:center;
 }
+.logo_desc{
+	display: none;
+}
 #header_ad {
 	float:left;
 	width:100%;
@@ -27,6 +37,16 @@
 	display:none;
 	margin:3% 0 0 0;
 	text-align:center;	
+}
+#menu{
+	width: 100%;
+	overflow: hidden;
+	margin:10px 0 0 0;
+}
+#inner_content_section {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 10px 0;
 }
 .tinynav { display: block; }
 #Main_nav { display: none }
@@ -66,7 +86,7 @@ nav.global-navi ul li a:hover {
 
 #content_section {
 	width:100%;
-	overflow:auto;
+	overflow: hidden;
 }
 .mag_category_column_vertical{
 	width:100%;
@@ -299,7 +319,6 @@ nav.global-navi ul li a:hover {
 	margin:0 0 0 10%;
 	background:url(images/single_np_prev.png) left center no-repeat;	
 }
-
 .single_np_next {
 	float:left;
 	width:90%;
@@ -625,18 +644,31 @@ dl.gallery-item img {
 /* styles for 901px - 1200px */
 @media screen 
 and (min-width : 901px) {
+
+.logo_desc{
+	display: block;
+}
 #header_social_cont {
 	display:block;
 }
+#menu{
+	width: 98%;
+	margin:10px 8px 0 8px;
+}
+#inner_content_section {
+	width: 98%;
+	overflow: hidden;
+	margin:0 10px 10px 9px;
+}
 #header_social {
-	width: 900px;	
+	width: 80%;	
 	padding:1px 0;
 	margin:0 auto;
 	overflow:auto;
 }
 .header_rss {
 	float:right;
-	overflow:auto;	
+	overflow:auto;
 }
 .header_rss p{
 	float:right;
@@ -647,7 +679,6 @@ and (min-width : 901px) {
 	width:300px;
 	margin:0 7px;
 }
-
 .header_search_cont fieldset{
 	float:left;
 	width:300px;
