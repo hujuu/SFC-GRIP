@@ -13,6 +13,5 @@
 								get_template_part( 'index', $homelayout );
 							
 							
-			?>		
-									
+			?>					
 			<?php get_footer(); ?>

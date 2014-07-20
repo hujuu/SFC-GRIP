@@ -102,10 +102,6 @@ jQuery(document).ready(function() {
 
 
 
-
-
-
-
 /**
  * Get ID of the page, if this is current page
  */

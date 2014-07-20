@@ -30,13 +30,11 @@
 															<div class="clear"></div>
 															<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'Destro' ) . '</span>', 'after' => '</div>' ) ); ?>																				
 														</div>
-
-													
+	
 													</div>
                                                     
 												</div>
 												<!-- Actual Post ends here -->		
-												<?php comments_template(); ?>
 												<?php endwhile; ?>
 												<?php endif; ?>                
                         </div>	

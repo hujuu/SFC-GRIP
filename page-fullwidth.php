@@ -59,8 +59,6 @@ Template Name: Page With No Sidebar
 
 
 
-
-
                     </div>	
                     <!-- Inner Content Section ends here -->
 							

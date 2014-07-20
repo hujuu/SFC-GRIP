@@ -171,8 +171,7 @@
                                                     </div>                                                    
                                                      Newsletter ends here -->        
                                                     <?php endif; ?>
-                                                                                              
-
+                                                                                            
                                                     
                                                     <?php if(!of_get_option('show_np_box') || of_get_option('show_np_box')=='true') : ?>
  
