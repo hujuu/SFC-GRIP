@@ -171,35 +171,11 @@
                                                     </div>                                                    
                                                      Newsletter ends here -->        
                                                     <?php endif; ?>
-                                                    
-                                                                                                      
+                                                                                              
 
                                                     
                                                     <?php if(!of_get_option('show_np_box') || of_get_option('show_np_box')=='true') : ?>
-                                                    <!-- Next/prev post starts here -->  
-                                                    <div class="single_np">
-                                                    
-                                                    	
-
-                                                            
-                                                          	<?php 
-																
-																previous_post_link('<div class="single_np_prev"><p class="single_np_prev_np">'.__('Previous Post' , 'Destro').'</p><p> %link</p></div>');
-																
-															?>                                                            
-                                                            
-                                                        
-                                                    	
-
-                                                          	<?php 
-																
-																next_post_link('<div class="single_np_next"><p class="single_np_next_np">'.__('Next Post' , 'Destro').'</span></p><p> %link</p></div>');
-																
-															?>                                                             
-                                                                                                                
-                                                    
-                                                    </div>                                                    
-                                                    <!-- Next/prev post ends here --> 
+ 
                                                     <?php endif; ?>
                                                     
                                                     
@@ -220,8 +196,6 @@
            			<?php get_footer(); ?>
 							
 								
-									
-
 							
 								
 									

@@ -11,7 +11,6 @@
 																			} else { ?>
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter-long.png" alt="" />
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook-long.png" alt="" />
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/rss-long.png" alt="" />
                                          <?php } ?>
                                                                               
 		                            </div>
@@ -70,8 +69,7 @@
                                             
                                             </div>  
                                             <?php endif; ?>
-                                           
-                                            
+                                                     
                                                                         
                             </div>
 							<!-- FeedBurner ends here -->
@@ -120,9 +118,6 @@
                             
                             </div>
                             <!-- Social box ends here -->                            
-
-
-
 
 
                            <!-- Sidebar Starts Here --> 
